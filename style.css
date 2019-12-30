@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+
+}
+ body {
+    background: url("lighthouse.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;font-family: 'Quicksand', sans-serif; 
+    color: rgba(43, 41, 41, 0.781);
+    font-size: 24px;
+ }
+
+ .nav-item a {
+    color:#F4EBF6;
+    padding: 2px 20px;
+    text-decoration: none;
+    border-right: 1px solid #666;
+    
+}
+  
+.nav-item a:hover {
+    background-color:rgba(43, 41, 41, 0.781);
+    color: white;
+  }
+  
+.nav-item a:active {
+    color: pink;
+  }
+
+  
+  img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    opacity: .7;
+    float:right;
+}
+
+a img:hover {
+    width: 150px;
+    height: 150px;
+    
+}
+
+
+.wrapper {
+    margin: 70px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+
+.navbar{
+    color:gray;
+    text-align: center;
+    font-size: .7em;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 414px) { 
+    .wrapper {
+        text-align: center;
+        font-size: 2em;
+    }
+   h1 {
+       font-size: 2em;
+   }
+   
+   a img{
+       float:none ;
+   }
+}
+
