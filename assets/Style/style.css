@@ -3,7 +3,7 @@
 
 }
  body {
-    background: url("../images/lighthouse.png") no-repeat center center fixed; 
+    background: url("../images/LH-new.jpeg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +58,10 @@ a img:hover {
     font-size: .7em;
 }
 
-
+.form-horizontal{
+    float: none;
+    margin-left: 60px;
+}
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 414px) { 
