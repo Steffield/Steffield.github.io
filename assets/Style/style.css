@@ -94,7 +94,7 @@ html {
 #sendBtn{
   padding:5px;
   border-radius:5px;
-  box-shadow:1px 1px 2px 2px gray;
+  box-shadow:0px 0px 7px 0px gray;
   background-color: #e3cfcf;
   text-decoration:none;
   font-size:16px;
@@ -102,7 +102,7 @@ html {
 #loadMoreBtn:hover,
 #toTopBtn:hover,
 #sendBtn:hover{
-  box-shadow:4px 4px 8px 8px gray;
+  box-shadow:0px 0px 7px 0px gray;
   color:black;
 }
 .button{
@@ -145,25 +145,25 @@ p{
 /* -----picture related-------- */
 
 /* Create a Parallax Effect */
+
 .bgImg-1, 
 .bgImg-2, 
 .bgImg-3 {
-  background-attachment: fixed!important;
+  /* background-attachment: fixed!important; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
 /* Landing bg image */
 .bgImg-1 {
-  background-image: url("lighthouse.png");
+  background-image: url("lighthouse-compressor.png");
   height:100%
 }
 
 /* Portfolio bg img */
 .bgImg-2 {
-  background-image: url("womanWork.jpg");
+  background-image: url("womanWork-opt.jpg");
   height:100%;
 }
 
@@ -337,8 +337,8 @@ hr{
   max-width:100%;height:auto;
   opacity: .7;
   border: 40px solid #e3cfcf;
-  /* border-image-source: url("lighthouse.png");
-  border-image-slice: 19 fill; 
+  /* border-image-source: url("lighthousebgImg.png")!important;
+  border-image-slice: 19 fill;  */
   */
 }
 
@@ -348,6 +348,15 @@ hr{
   /* box-shadow: 4px 4px 6px 6px #e3cfcf; */
   opacity: 1;
   border: 10px solid #e3cfcf;
+
+}
+
+#resumeBtn{
+  background-color: #e3cfcf;
+  margin-top:50px;
+  border-radius:3px;
+  box-shadow: 0px 0px 7px 0px whitesmoke;
+  /* font-size: .8em; */
 
 }
 
@@ -375,7 +384,7 @@ hr{
 .skillBar{
   /* font-size: 2em; */
   padding: 0 20px 0 20px;
-  box-shadow: 1px 1px 0px 0px grey;
+  box-shadow: 0px 0px 7px 0px gray;
   /* border-radius: 5px; */
   background-color: #e3cfcf;
 }
@@ -402,7 +411,7 @@ hr{
   height:240px;
   background-color: #f2f0f2;
   opacity:.7;
-  border: 2px solid #6c4040;
+  border: 5px double #6c4040;
 }
 
 .pfPic:hover{
@@ -434,12 +443,12 @@ hr{
     /* height: 35%; */
     top: 45%;
     border-radius: 2px;
-    /* top: 55%; */
-    /* left: 23%; */
+    left: 14%;
+    bottom: 8%;
     padding: 10px;
     /* padding: 30px; */
     /* opacity: .9; */
-    box-shadow: 2px 2px 2px 4px #6c4040;
+    box-shadow: 0px 2px 3px 3px #6c4040;
     /* margin: 20px; */
     font-size: .8em;
 }
@@ -517,6 +526,16 @@ footer:hover{
     min-height: 800px;
   }
 }
+@media (min-width:1024px){
+  .bgImg-1, 
+  .bgImg-2, 
+  .bgImg-3 {
+    background-attachment: fixed!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  }
 
 @media (max-width:900px) and (min-width:700px){
   #nameSpan{
@@ -558,6 +577,22 @@ footer:hover{
     display:none!important;
   }
 
+  #bgTextLeft{
+    top:30%;
+    left:0%;
+  }
+  #nameSpan{
+    font-size:24px;
+  }
+  #jobSpan{
+    font-size:18px;
+  }
+
+  .iconsTop{
+    font-size: 3em;
+  }
+  
+
   #git,
   #linkedIn {
   width: 60px;
@@ -597,6 +632,7 @@ and (max-device-width : 414px) {
        font-size: 2em;
    }
 }
+
 
 
 /*for the script*/
