@@ -204,11 +204,11 @@
       </div>
       <p>Or leave me a note:</p>
 
-      <form action="contact.php" method="post" target="_blank">
-        <p><input class="input" type="text" placeholder="Name" required name="name"></p>
-        <p><input class="input" type="text" placeholder="Email" required name="email"></p>
-        <p><input class="input" type="text" placeholder="Subject" required name="subject"></p>
-        <p><input class="input" type="text" placeholder="Message" required name="message"></p>
+      <form action="/action_page.php" method="post" target="_blank">
+        <p><input class="input" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="input" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="input" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><input class="input" type="text" placeholder="Message" required name="Message"></p>
         <p>
           <button class="button center padding-large" id="sendBtn" type="submit">
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
