@@ -109,12 +109,21 @@ html {
 }
 
 #resumeBtn{
-  background-color: #e3cfcf;
+  /* background-color: #e3cfcf;
   margin-top:50px;
   border-radius:3px;
   box-shadow: 0px 0px 7px 0px gray;
-  /* font-size: .8em; */
-  border: 1px solid gray
+  /* font-size: .8em; 
+  border: 1px solid gray */
+
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px grey;
+  background-color: #e3cfcf;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 50px;
+  border: 1px solid gray;
 
 }
 .button{
@@ -189,8 +198,8 @@ p{
 
 #bgTextLeft{
   position:absolute;
-  top:50%;
-  left:0%;
+  top:30%;
+  left:3%;
   transform:translate(0%,-50%);
   -ms-transform:translate(-0%,-50%);
   white-space:nowrap;
@@ -198,8 +207,8 @@ p{
 
 #bgTextRight{
   position:absolute;
-  top:50%;
-  right:0%;
+  top:60%;
+  right:3%;
   transform:translate(0%,-50%);
   -ms-transform:translate(0%,-50%);
   white-space:nowrap;
@@ -293,7 +302,7 @@ hr{
    font-size: 3em;
  }
  .iconsTop{
-   font-size:5em;
+   font-size:4em;
    padding: 20px;
    opacity: .9;
    float:right;
@@ -485,12 +494,12 @@ hr{
   margin-bottom:16px;
 }
 
-.input{
+/* .input{
   padding:5px;
   width:100%;
   border-radius: 5px;
   background-color: #e3cfcf;
-}
+} */
 
 textarea,
 input {
@@ -501,6 +510,8 @@ input {
     border-radius: 5px;
     border: 1px solid black;
     padding: 5px;
+    background-color: #e3cfcf;
+    box-shadow: 2px 2px 7px 0px grey;
 }
  
 
