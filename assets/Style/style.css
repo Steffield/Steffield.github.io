@@ -92,18 +92,30 @@ html {
 #loadMoreBtn,
 #toTopBtn,
 #sendBtn{
-  padding:5px;
+  padding:7px;
   border-radius:5px;
   box-shadow:0px 0px 7px 0px gray;
   background-color: #e3cfcf;
   text-decoration:none;
   font-size:16px;
+  margin-top:20px;
+  border: 1px solid gray
 }
 #loadMoreBtn:hover,
 #toTopBtn:hover,
 #sendBtn:hover{
   box-shadow:0px 0px 7px 0px gray;
   color:black;
+}
+
+#resumeBtn{
+  background-color: #e3cfcf;
+  margin-top:50px;
+  border-radius:3px;
+  box-shadow: 0px 0px 7px 0px gray;
+  /* font-size: .8em; */
+  border: 1px solid gray
+
 }
 .button{
   border:none;
@@ -351,14 +363,6 @@ hr{
 
 }
 
-#resumeBtn{
-  background-color: #e3cfcf;
-  margin-top:50px;
-  border-radius:3px;
-  box-shadow: 0px 0px 7px 0px gray;
-  /* font-size: .8em; */
-
-}
 
 .sectionMargin{
   margin-top:16px!important;
@@ -487,6 +491,31 @@ hr{
   border-radius: 5px;
   background-color: #e3cfcf;
 }
+
+textarea,
+input {
+    overflow: visible;
+    display: block;
+    width: 100%!important;
+    margin-bottom: 10px!important;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+ 
+
+label{
+  margin-bottom:0!important;
+}
+
+
+
+/* .contact{
+  display: block;
+    width: 100%!important;
+    margin-bottom: 10px;
+    border-radius: 5px;
+} */
 
 /* -----footer---- */
 

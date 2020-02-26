@@ -204,7 +204,31 @@
       </div>
       <p>Or leave me a note:</p>
 
-      <form action="contact.php" method="post" target="_blank">
+      <!-- <form action="https://formspree.io/steffilebby@gmail.com"method="POST">
+        <p class="contact"><input type="text" name="name" placeholder="Name"></p>
+        <p class="contact"><input type="email" name="_replyto" placeholder="Email"></p>
+        <p class="contact"><input type="subjetc" name="_subject" placeholder="Subject"></p>
+        <p class="contact"><input type="message" name="message" placeholder="Message"></p>
+        <input type="submit" value="Send" id="sendBtn">
+    </form> -->
+
+    <form class="contact" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/steffilebby@gmail.com" method="post">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Name</label>
+        <input type="text" name="name" id="full-name" placeholder="Name" required="">
+        <label for="email-address">Email</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="Email" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" placeholder="Message" required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <button type="submit" class="button center padding-large" id="sendBtn" type="submit">
+        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      </button>
+      <!-- <input type="submit" value="Submit" id="sendBtn"> -->
+    </form>
+
+      <!-- <form action="contact.php" method="post" target="_blank">
         <p><input class="input" type="text" placeholder="Name" required name="name"></p>
         <p><input class="input" type="text" placeholder="Email" required name="email"></p>
         <p><input class="input" type="text" placeholder="Subject" required name="subject"></p>
@@ -214,7 +238,7 @@
             <i class="fa fa-paper-plane"></i> SEND MESSAGE
           </button>
         </p>
-      </form>
+      </form> -->
     </div>
   </div>
 </div>
