@@ -53,23 +53,23 @@ html {
   float:right!important;
 } 
 
-#navLink:hover{
+/* #navLink:hover{
   color:#b6a9b6!important;
   background-color:rgb(52, 47, 54);
   text-decoration: none;
-}
+} */
 
 .navbar-item:hover{
-  background-color:  rgb(52, 47, 54);
-  color:#c0b5c0;
-  text-decoration: none;
-}
-
-.navbar-item button:hover{
-  background-color:  #c0b5c0;
+  background-color: #e3cfcf; 
   color:rgb(52, 47, 54);
   text-decoration: none;
 }
+
+/* .navbar-item button:hover{
+  background-color:  #c0b5c0;
+  color:rgb(52, 47, 54);
+  text-decoration: none;
+} */
 
 #home{
   position:relative;
@@ -101,12 +101,6 @@ html {
   margin-top:20px;
   border: 1px solid gray
 }
-#loadMoreBtn:hover,
-#toTopBtn:hover,
-#sendBtn:hover{
-  box-shadow:0px 0px 7px 0px gray;
-  color:black;
-}
 
 #resumeBtn{
   /* background-color: #e3cfcf;
@@ -126,6 +120,8 @@ html {
   border: 1px solid gray;
 
 }
+
+
 .button{
   border:none;
   display:inline-block;
@@ -149,10 +145,33 @@ html {
 
 }
 
-
 .button:disabled{
   cursor:not-allowed;
   opacity:0.3;
+}
+
+button:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+#loadMoreBtn:hover,
+#resumeBtn:hover,
+#sendBtn:hover{
+  background-color:#bc8f8f;
+  box-shadow: 0px 0px 8px 5px #e3cfcf;
+ 
+
+}
+
+#toTopBtn:hover{
+  box-shadow:0px 0px 7px 0px #e3cfcf;;
+  /* padding:20px; */
+  color:#e3cfcf;
+  background-color: rgb(52, 47, 54);
 }
 
 /* -----body related------- */
@@ -583,6 +602,10 @@ footer:hover{
   }
   #jobSpan{
     font-size: 20px;
+  }
+  footer{
+    
+    opacity:1;
   }
 }
 
