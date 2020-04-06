@@ -456,7 +456,8 @@ hr{
 .pf2,
 .pf3,
 .pf4,
-.pf5{ 
+.pf5,
+.pf6{ 
     z-index: 1;
     position: relative;
     margin: 20px;
@@ -467,7 +468,8 @@ hr{
 .banner2, 
 .banner3, 
 .banner4, 
-.banner5 {
+.banner5,
+.banner6 {
   position: absolute;
     background-color: #e3cfcf;
     color: black;
@@ -679,7 +681,8 @@ footer:hover{
   .banner2, 
   .banner3, 
   .banner4, 
-  .banner5 {
+  .banner5,
+  .banner6{
       
       /* width: 92%; */
       margin:0;
