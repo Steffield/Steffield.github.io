@@ -82,6 +82,7 @@ html {
 }
 
 /* -------buttons------ */
+#resumeBtn,
 #loadMoreBtn,
 #toTopBtn,
 #sendBtn{
@@ -95,8 +96,9 @@ html {
   margin-top:20px;
   border: 1px solid gray
 }
-
+/* 
 #resumeBtn{
+  color: black!important;
   /* background-color: #e3cfcf;
   margin-top:50px;
   border-radius:3px;
@@ -106,7 +108,6 @@ html {
 
   
 
-}
 
 
 .button{
@@ -145,12 +146,14 @@ button:active {
    outline: none;
 }
 
+#resumeBtn:hover,
 #loadMoreBtn:hover,
 #resumeBtn:hover,
 #sendBtn:hover{
   background-color:#bc8f8f;
   box-shadow: 0px 0px 8px 5px #e3cfcf;
   border-color: #bc8f8f;
+  color: black;
  
 
 }
@@ -341,19 +344,14 @@ hr{
 
  /* -----about section------ */
 
-#aboutRow{
-  padding:12px 24px!important;
-}
-/
-/*test end*/
-
-#myPhoto{
-  max-width:100%;height:auto;
+ #myPhoto{
+  /* max-width:100%; */
   opacity: .7;
   border: 5px solid #bc8f8f;
-  /* border-image-source: url("lighthousebgImg.png")!important;
-  border-image-slice: 19 fill;  */
   margin-bottom: 30px;
+}
+#aboutRow{
+  padding:12px 24px!important;
 }
 
 #myPhoto:hover{
@@ -364,7 +362,6 @@ hr{
   border: 2px solid #bc8f8f;
 
 }
-
 
 .sectionMargin{
   margin-top:16px!important;
