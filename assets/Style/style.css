@@ -306,14 +306,16 @@ a #linkedIn:hover {
 }
 
 .githubInText{
-  color: black;
+  color: #bc8f8f;
+  font-weight: bold;
   padding-left: 5px;
   /* font-size:1.2em; */
 }
 
 .githubInText:hover{
-  color: black;
-  font-size: 2em;
+  color: #6c4040;
+  /* font-weight: bold; */
+  /* font-size: 2em; */
 }
 
 hr{
