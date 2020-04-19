@@ -535,6 +535,12 @@ label{
   margin-bottom:0!important;
 }
 
+.badge{
+  /* background-color: #bc8f8f!important; */
+  color: #e3cfcf!important;
+  font-size: .9em!important;
+}
+
 
 
 /* .contact{
@@ -678,7 +684,8 @@ footer:hover{
   .banner4, 
   .banner5,
   .banner6{
-      height: 45%;
+      height: 55%;
+      bottom: 0
       /* width: 92%; */
       /* margin:0; */
   }
