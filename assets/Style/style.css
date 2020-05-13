@@ -492,10 +492,10 @@ hr{
 
 /* ----contact section----- */
 
-#contactSection{
+/* .contactSection{
   color: rgb(52, 47, 54);
-  text-decoration: none!important;
-}
+  text-decoration: none;
+} */
 
 #contactPanel{
   padding:0.01em 16px;
