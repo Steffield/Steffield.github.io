@@ -7,5 +7,5 @@ My personal portfolio page
 
 ## Credits
 
-Main background image was taken bt me in New Zealand and edited using snorpey.github.io 's image triangulation.
+Main background image was taken by me in New Zealand and edited using snorpey.github.io's image triangulation.
 Portfolio background image by Christin Hume on Unsplash and Contact image by Antoine Barres on Unsplash.
