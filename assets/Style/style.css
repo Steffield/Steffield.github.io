@@ -209,8 +209,6 @@ p {
 #rightSpan {
   padding: 12px 24px !important;
   font-size: 12px !important;
-
-  /* animation: opac 0.8s; */
 }
 
 #nameSpan {
@@ -467,7 +465,6 @@ h4 {
 
 .banner {
   position: absolute;
-  /* background-color: #bc8f8f; */
   background-color: #e7d8d1;
   color: black;
   bottom: 0;
@@ -515,7 +512,6 @@ input {
   border-radius: 5px;
   border: 1px solid #e3cfcf;
   padding: 5px;
-
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
