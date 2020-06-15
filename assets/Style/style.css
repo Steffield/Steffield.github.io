@@ -632,6 +632,13 @@ footer:hover {
   .fa-laptop {
     padding: 0 5px 0 5px;
   }
+  #myPhoto {
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, #d18989, #7a7777);
+    border-image-slice: 1;
+    transition: padding 300ms ease-out;
+    transition-delay: 150ms;
+  }
 }
 
 .display-container {
@@ -656,8 +663,7 @@ footer:hover {
   .banner {
     height: 55%;
     bottom: 0;
-    /* width: 92%; */
-    /* margin:0; */
+    right: 1%;
   }
 }
 

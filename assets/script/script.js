@@ -1,7 +1,7 @@
 // navbar change when scrolling
 let i = 0;
 let txt = "Full Stack Web Developer";
-var speed = 50;
+var speed = 120;
 
 const typeWriter = () => {
   if (i < txt.length) {
