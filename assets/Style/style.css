@@ -663,7 +663,7 @@ footer:hover {
   .banner {
     height: 55%;
     bottom: 0;
-    right: 1%;
+    /* right: 1%; */
   }
 }
 
