@@ -1,16 +1,4 @@
 // navbar change when scrolling
-let i = 0;
-let txt = "Full Stack Web Developer";
-var speed = 120;
-
-const typeWriter = () => {
-  if (i < txt.length) {
-    document.getElementById("jobSpan").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-};
-typeWriter();
 
 window.onscroll = function () {
   myFunction();
@@ -36,3 +24,32 @@ const toggleFunction = () => {
     x.className = x.className.replace(" show", "");
   }
 };
+
+//typewriter effect
+let i = 0;
+let txt = "Full Stack Web Developer";
+var speed = 120;
+
+const typeWriter = () => {
+  if (i < txt.length) {
+    document.getElementById("jobSpan").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+};
+typeWriter();
+
+//theme
+// var themeSwitcher = document.querySelector("#theme-switcher");
+// var container = document.querySelector(".body");
+// var mode = "dark";
+
+// themeSwitcher.addEventListener("click", function () {
+//   if (mode === "dark") {
+//     mode = "light";
+//     container.setAttribute("class", "light");
+//   } else {
+//     mode = "dark";
+//     container.setAttribute("class", "dark");
+//   }
+// });
