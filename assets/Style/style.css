@@ -3,7 +3,8 @@
 }
 
 .SFblue {
-  color: #006fd2;
+  /* color: #006fd2; */
+  color: #3c3737;
 }
 
 .padding-10 {
@@ -748,6 +749,9 @@ footer:hover {
 @media (max-width: 700px) and (min-width: 400px) {
   .pfPic {
     height: 250px;
+  }
+  .sectionSpan {
+    font-size: 2.8em;
   }
 }
 @media (max-width: 400px) {
