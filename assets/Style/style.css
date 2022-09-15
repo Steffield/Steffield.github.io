@@ -245,6 +245,15 @@ p {
   height: 100%;
 }
 
+.trailheadInText {
+  color: black;
+}
+
+.trailheadInText:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 /* -----Text in bg img 1------ */
 
 #bgTextLeft {
