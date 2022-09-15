@@ -755,6 +755,9 @@ footer:hover {
     height: 200px;
     margin: 20px 20px 20px 35px;
   }
+  .sectionSpan {
+    font-size: 2em;
+  }
 }
 
 /* .navbar-item:last-child{
