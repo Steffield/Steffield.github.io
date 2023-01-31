@@ -27,7 +27,9 @@ const toggleFunction = () => {
 
 //typewriter effect
 let i = 0;
-let txt = "Full Stack Web Developer";
+// let txt = "Full Stack Web Developer";
+let txt = "Web Developer and Technical Consultant";
+
 var speed = 120;
 
 const typeWriter = () => {
